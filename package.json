@@ -4,8 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "create_index": "npm run build && node dist/src/create_index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "quicktype-core": "^23.0.116",
+    "redis": "^4.6.13"
+  }
 }
