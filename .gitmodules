@@ -1,0 +1,4 @@
+[submodule "RedisInsight"]
+	path = RedisInsight
+	url = git@github.com:RedisInsight/RedisInsight.git
+	branch = feature/RI-5402-ai-assistant
