@@ -1,9 +1,12 @@
 # AI_context_utility
 
+## Init + pull submodule
+```git submodule update --remote --init```
+
+## Install deps
 ```npm install```
 
 ## Build and run:
-
 ```npm run create_index c```
 
 Example: 
